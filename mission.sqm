@@ -108,7 +108,6 @@ addons[]=
 	"A3_Structures_F_Civ_Garbage",
 	"A3_Structures_F_Kart_Civ_SportsGrounds",
 	"CUP_AirVehicles_Mi8",
-	"A3_Structures_F_Wrecks",
 	"CUP_WheeledVehicles_BRDM2",
 	"CUP_Creatures_Military_USArmy",
 	"CUP_Creatures_Military_Russia",
@@ -147,7 +146,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=96;
+		items=95;
 		class Item0
 		{
 			className="CUP_WaterVehicles_LHD";
@@ -569,174 +568,167 @@ class AddonsMetaData
 		};
 		class Item67
 		{
-			className="A3_Structures_F_Wrecks";
-			name="Arma 3 - Vehicle Wrecks";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item68
-		{
 			className="CUP_WheeledVehicles_BRDM2";
 			name="CUP_WheeledVehicles_BRDM2";
 		};
-		class Item69
+		class Item68
 		{
 			className="CUP_Creatures_Military_USArmy";
 			name="CUP_Creatures_Military_USArmy";
 		};
-		class Item70
+		class Item69
 		{
 			className="CUP_Creatures_Military_Russia";
 			name="CUP_Creatures_Military_Russia";
 		};
-		class Item71
+		class Item70
 		{
 			className="CUP_Creatures_Military_Taki";
 			name="CUP_Creatures_Military_Taki";
 		};
-		class Item72
+		class Item71
 		{
 			className="mas_weapons_ak";
 			name="mas_weapons_ak";
 			author="massi & authors in credits";
 		};
-		class Item73
+		class Item72
 		{
 			className="CUP_Weapons_M136";
 			name="CUP_Weapons_M136";
 		};
-		class Item74
+		class Item73
 		{
 			className="CUP_Weapons_Items";
 			name="CUP_Weapons_Items";
 		};
-		class Item75
+		class Item74
 		{
 			className="Kio_Balaclava";
 			name="Kio_Balaclava";
 		};
-		class Item76
+		class Item75
 		{
 			className="VSM_Vests_Config";
 			name="VSM_Vests_Config";
 		};
-		class Item77
+		class Item76
 		{
 			className="rhs_c_troops";
 			name="AFRF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item78
+		class Item77
 		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item79
+		class Item78
 		{
 			className="KA_magazine_functions";
 			name="KA_magazine_functions";
 		};
-		class Item80
+		class Item79
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item81
+		class Item80
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item82
+		class Item81
 		{
 			className="CUP_AirVehicles_MH60S";
 			name="CUP_AirVehicles_MH60S";
 		};
-		class Item83
+		class Item82
 		{
 			className="CUP_Creatures_Military_USMC";
 			name="CUP_Creatures_Military_USMC";
 		};
-		class Item84
+		class Item83
 		{
 			className="rhs_c_sprut";
 			name="BMD-4 & Sprut-SD";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item85
+		class Item84
 		{
 			className="rhs_c_weapons";
 			name="AFRF Weapons Pack";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item86
+		class Item85
 		{
 			className="CUP_Weapons_M17";
 			name="CUP_Weapons_M17";
 		};
-		class Item87
+		class Item86
 		{
 			className="rhssaf_c_gear";
 			name="RHS: SAF gear configuration";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item88
+		class Item87
 		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item89
+		class Item88
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item90
+		class Item89
 		{
 			className="CUP_Creatures_Military_PMC";
 			name="CUP_Creatures_Military_PMC";
 		};
-		class Item91
+		class Item90
 		{
 			className="rhsgref_c_weapons";
 			name="GREF Weapons";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item92
+		class Item91
 		{
 			className="A3_Characters_F_Tank";
 			name="Arma 3 Tank - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item93
+		class Item92
 		{
 			className="ace_compat_rhs_afrf3";
 			name="ACE3 - RHS AFRF Compatibility";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item94
+		class Item93
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item95
+		class Item94
 		{
 			className="CUP_WheeledVehicles_BTR40";
 			name="CUP_WheeledVehicles_BTR40";
@@ -978,7 +970,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=164;
+		items=162;
 		class Item0
 		{
 			dataType="Object";
@@ -9760,40 +9752,6 @@ class Mission
 		};
 		class Item100
 		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2166.9353,8.9590673,10849.336};
-				angles[]={0.013332055,0,6.2805333};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=748;
-			type="Land_Wreck_HMMWV_F";
-			atlOffset=-0.44093704;
-		};
-		class Item101
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2374.9309,18.122944,11099.756};
-				angles[]={0.034652505,0,0.1845428};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=749;
-			type="Land_Wreck_Slammer_turret_F";
-			atlOffset=-0.0030155182;
-		};
-		class Item102
-		{
 			dataType="Trigger";
 			position[]={2106.5859,30.07259,13203.596};
 			angle=5.6051073;
@@ -9813,7 +9771,7 @@ class Mission
 			type="EmptyDetectorAreaR250";
 			atlOffset=16.612999;
 		};
-		class Item103
+		class Item101
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9829,7 +9787,7 @@ class Mission
 			id=769;
 			type="CUP_O_BRDM2_TKA";
 		};
-		class Item104
+		class Item102
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9845,7 +9803,7 @@ class Mission
 			id=772;
 			type="CUP_O_BRDM2_TKA";
 		};
-		class Item105
+		class Item103
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9862,7 +9820,7 @@ class Mission
 			type="rhsusf_M142_usmc_WD";
 			atlOffset=-0.00082969666;
 		};
-		class Item106
+		class Item104
 		{
 			dataType="Group";
 			side="West";
@@ -10073,7 +10031,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item107
+		class Item105
 		{
 			dataType="Group";
 			side="West";
@@ -10174,7 +10132,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item108
+		class Item106
 		{
 			dataType="Group";
 			side="West";
@@ -10302,7 +10260,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item109
+		class Item107
 		{
 			dataType="Group";
 			side="West";
@@ -10544,7 +10502,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item110
+		class Item108
 		{
 			dataType="Group";
 			side="West";
@@ -10920,7 +10878,7 @@ class Mission
 			id=1791;
 			atlOffset=9.5367432e-007;
 		};
-		class Item111
+		class Item109
 		{
 			dataType="Group";
 			side="East";
@@ -11198,7 +11156,7 @@ class Mission
 			};
 			id=1814;
 		};
-		class Item112
+		class Item110
 		{
 			dataType="Group";
 			side="East";
@@ -11432,7 +11390,7 @@ class Mission
 			id=1819;
 			atlOffset=1.4305115e-005;
 		};
-		class Item113
+		class Item111
 		{
 			dataType="Group";
 			side="East";
@@ -11556,7 +11514,7 @@ class Mission
 			};
 			id=1826;
 		};
-		class Item114
+		class Item112
 		{
 			dataType="Group";
 			side="East";
@@ -11790,7 +11748,7 @@ class Mission
 			};
 			id=1833;
 		};
-		class Item115
+		class Item113
 		{
 			dataType="Group";
 			side="East";
@@ -11895,7 +11853,7 @@ class Mission
 			};
 			id=1841;
 		};
-		class Item116
+		class Item114
 		{
 			dataType="Group";
 			side="East";
@@ -11948,7 +11906,7 @@ class Mission
 			};
 			id=1847;
 		};
-		class Item117
+		class Item115
 		{
 			dataType="Group";
 			side="East";
@@ -12032,7 +11990,7 @@ class Mission
 			};
 			id=1850;
 		};
-		class Item118
+		class Item116
 		{
 			dataType="Group";
 			side="East";
@@ -12082,7 +12040,7 @@ class Mission
 			};
 			id=1855;
 		};
-		class Item119
+		class Item117
 		{
 			dataType="Group";
 			side="East";
@@ -12132,7 +12090,7 @@ class Mission
 			};
 			id=1858;
 		};
-		class Item120
+		class Item118
 		{
 			dataType="Group";
 			side="East";
@@ -12205,7 +12163,7 @@ class Mission
 			id=1861;
 			atlOffset=-0.00015640259;
 		};
-		class Item121
+		class Item119
 		{
 			dataType="Group";
 			side="East";
@@ -12297,7 +12255,7 @@ class Mission
 			id=1865;
 			atlOffset=-0.044965744;
 		};
-		class Item122
+		class Item120
 		{
 			dataType="Group";
 			side="East";
@@ -12385,7 +12343,7 @@ class Mission
 			};
 			id=1870;
 		};
-		class Item123
+		class Item121
 		{
 			dataType="Group";
 			side="East";
@@ -12474,7 +12432,7 @@ class Mission
 			id=1875;
 			atlOffset=-4.7683716e-007;
 		};
-		class Item124
+		class Item122
 		{
 			dataType="Group";
 			side="East";
@@ -12560,7 +12518,7 @@ class Mission
 			};
 			id=1880;
 		};
-		class Item125
+		class Item123
 		{
 			dataType="Group";
 			side="East";
@@ -12664,7 +12622,7 @@ class Mission
 			};
 			id=1885;
 		};
-		class Item126
+		class Item124
 		{
 			dataType="Group";
 			side="East";
@@ -12732,7 +12690,7 @@ class Mission
 			};
 			id=1891;
 		};
-		class Item127
+		class Item125
 		{
 			dataType="Group";
 			side="East";
@@ -12821,7 +12779,7 @@ class Mission
 			};
 			id=1895;
 		};
-		class Item128
+		class Item126
 		{
 			dataType="Group";
 			side="East";
@@ -12871,7 +12829,7 @@ class Mission
 			};
 			id=1900;
 		};
-		class Item129
+		class Item127
 		{
 			dataType="Group";
 			side="East";
@@ -12922,7 +12880,7 @@ class Mission
 			id=1903;
 			atlOffset=-4.7683716e-007;
 		};
-		class Item130
+		class Item128
 		{
 			dataType="Group";
 			side="East";
@@ -13027,7 +12985,7 @@ class Mission
 			};
 			id=1906;
 		};
-		class Item131
+		class Item129
 		{
 			dataType="Group";
 			side="East";
@@ -13132,7 +13090,7 @@ class Mission
 			};
 			id=1912;
 		};
-		class Item132
+		class Item130
 		{
 			dataType="Group";
 			side="East";
@@ -13181,7 +13139,7 @@ class Mission
 			};
 			id=1918;
 		};
-		class Item133
+		class Item131
 		{
 			dataType="Group";
 			side="East";
@@ -13268,7 +13226,7 @@ class Mission
 			};
 			id=1921;
 		};
-		class Item134
+		class Item132
 		{
 			dataType="Group";
 			side="East";
@@ -13356,7 +13314,7 @@ class Mission
 			};
 			id=1926;
 		};
-		class Item135
+		class Item133
 		{
 			dataType="Group";
 			side="East";
@@ -13726,7 +13684,7 @@ class Mission
 			id=1931;
 			atlOffset=-9.5367432e-007;
 		};
-		class Item136
+		class Item134
 		{
 			dataType="Group";
 			side="East";
@@ -13776,7 +13734,7 @@ class Mission
 			};
 			id=1942;
 		};
-		class Item137
+		class Item135
 		{
 			dataType="Group";
 			side="East";
@@ -13862,7 +13820,7 @@ class Mission
 			};
 			id=1945;
 		};
-		class Item138
+		class Item136
 		{
 			dataType="Group";
 			side="East";
@@ -13951,7 +13909,7 @@ class Mission
 			};
 			id=1950;
 		};
-		class Item139
+		class Item137
 		{
 			dataType="Group";
 			side="East";
@@ -14196,7 +14154,7 @@ class Mission
 			};
 			id=1955;
 		};
-		class Item140
+		class Item138
 		{
 			dataType="Group";
 			side="East";
@@ -14264,7 +14222,7 @@ class Mission
 			};
 			id=1966;
 		};
-		class Item141
+		class Item139
 		{
 			dataType="Group";
 			side="Civilian";
@@ -14469,7 +14427,7 @@ class Mission
 			id=1972;
 			atlOffset=9.3460083e-005;
 		};
-		class Item142
+		class Item140
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -14480,7 +14438,7 @@ class Mission
 			type="SupportProvider_Artillery";
 			atlOffset=172.96059;
 		};
-		class Item143
+		class Item141
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14515,7 +14473,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item144
+		class Item142
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14564,7 +14522,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item145
+		class Item143
 		{
 			dataType="Group";
 			side="West";
@@ -14797,7 +14755,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item146
+		class Item144
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14815,7 +14773,7 @@ class Mission
 			type="rhs_sprut_vdv";
 			atlOffset=-9.5367432e-007;
 		};
-		class Item147
+		class Item145
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -14855,7 +14813,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item148
+		class Item146
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -15012,7 +14970,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item149
+		class Item147
 		{
 			dataType="Trigger";
 			position[]={1879.929,6.1468372,10203.367};
@@ -15028,7 +14986,7 @@ class Mission
 			id=2062;
 			type="EmptyDetectorAreaR50";
 		};
-		class Item150
+		class Item148
 		{
 			dataType="Trigger";
 			position[]={1913.1899,5.587615,10152.229};
@@ -15045,21 +15003,21 @@ class Mission
 			type="EmptyDetectorAreaR50";
 			atlOffset=0.16699982;
 		};
-		class Item151
+		class Item149
 		{
 			dataType="Layer";
 			name="Fire Team (Stealth)";
 			id=2082;
 			atlOffset=60.779999;
 		};
-		class Item152
+		class Item150
 		{
 			dataType="Layer";
 			name="Fire Team";
 			id=2089;
 			atlOffset=60.779999;
 		};
-		class Item153
+		class Item151
 		{
 			dataType="Object";
 			class PositionInfo
@@ -15094,7 +15052,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item154
+		class Item152
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -15105,7 +15063,7 @@ class Mission
 			type="HighCommand";
 			atlOffset=63.168999;
 		};
-		class Item155
+		class Item153
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -15116,7 +15074,7 @@ class Mission
 			type="HighCommandSubordinate";
 			atlOffset=62.075878;
 		};
-		class Item156
+		class Item154
 		{
 			dataType="Layer";
 			name="Chinese Marine Fireteam";
@@ -15741,7 +15699,7 @@ class Mission
 			id=2099;
 			atlOffset=-0.15794754;
 		};
-		class Item157
+		class Item155
 		{
 			dataType="Layer";
 			name="ammo box";
@@ -15786,7 +15744,7 @@ class Mission
 			};
 			id=2101;
 		};
-		class Item158
+		class Item156
 		{
 			dataType="Layer";
 			name="Chinese Marine Squad";
@@ -17083,14 +17041,14 @@ class Mission
 			id=2121;
 			atlOffset=-0.2267704;
 		};
-		class Item159
+		class Item157
 		{
 			dataType="Layer";
 			name="4ChadMarines";
 			id=2128;
 			atlOffset=60.779999;
 		};
-		class Item160
+		class Item158
 		{
 			dataType="Group";
 			side="East";
@@ -17228,7 +17186,7 @@ class Mission
 			};
 			id=2157;
 		};
-		class Item161
+		class Item159
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17261,7 +17219,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item162
+		class Item160
 		{
 			dataType="Group";
 			side="East";
@@ -17341,7 +17299,7 @@ class Mission
 			};
 			id=2161;
 		};
-		class Item163
+		class Item161
 		{
 			dataType="Group";
 			side="East";
