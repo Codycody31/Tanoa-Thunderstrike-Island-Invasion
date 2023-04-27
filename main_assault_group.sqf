@@ -1,0 +1,1 @@
+[blufor, "HQ"] sideChat "Operation Thunderstrike has been initiated.";
