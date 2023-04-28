@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14811.774,49.044743,259.36288};
-		dir[]={-0.11717423,-0.34895504,0.92979109};
-		up[]={-0.043630939,0.93713927,0.34621763};
-		aside[]={0.99215949,2.8059003e-007,0.12503327};
+		pos[]={14729.782,100.76085,270.24014};
+		dir[]={0.42846397,-0.50944299,0.74626213};
+		up[]={0.25366005,0.86050081,0.44180346};
+		aside[]={0.86723572,2.2281893e-007,-0.49792033};
 	};
 };
 binarizationWanted=0;
@@ -17816,11 +17816,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=65;
+			nextID=67;
 		};
 		class Links
 		{
-			items=65;
+			items=67;
 			class Item0
 			{
 				linkID=0;
@@ -18466,6 +18466,26 @@ class Mission
 				linkID=64;
 				item0=2126;
 				item1=425;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item65
+			{
+				linkID=65;
+				item0=2091;
+				item1=2124;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item66
+			{
+				linkID=66;
+				item0=2092;
+				item1=19;
 				class CustomData
 				{
 					type="Sync";
