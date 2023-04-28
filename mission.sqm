@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2240;
+		nextID=2242;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11587.259,129.15219,2990.0977};
-		dir[]={0.38120377,-0.57777303,0.72170776};
-		up[]={0.26984799,0.81619745,0.51088524};
-		aside[]={0.88423169,0,-0.46704847};
+		pos[]={11688.979,45.426369,3096.5037};
+		dir[]={0.6746828,-0.62561852,0.39167786};
+		up[]={0.54105639,0.78012741,0.31410262};
+		aside[]={0.50206733,1.792796e-008,-0.8648349};
 	};
 };
 binarizationWanted=0;
@@ -141,14 +141,13 @@ addons[]=
 	"ace_compat_rhs_afrf3",
 	"ace_ballistics",
 	"CUP_WheeledVehicles_BTR40",
-	"rhs_c_2s1",
-	"rhsusf_c_f22"
+	"rhs_c_2s1"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=97;
+		items=96;
 		class Item0
 		{
 			className="CUP_WaterVehicles_LHD";
@@ -739,13 +738,6 @@ class AddonsMetaData
 		{
 			className="rhs_c_2s1";
 			name="2S1 SPG";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item96
-		{
-			className="rhsusf_c_f22";
-			name="F-22 Fighter";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
@@ -3044,14 +3036,14 @@ class Mission
 						{
 							dataType="Waypoint";
 							loiterAltitude=-3.4028235e+038;
-							position[]={1919.991,3.5394564,10661.231};
+							position[]={1920.4531,3.5517552,10663.351};
 							type="VehicleInVehicleGetIn";
 							class Effects
 							{
 							};
 							showWP="NEVER";
 							id=1997;
-							atlOffset=0.50000739;
+							atlOffset=0.5;
 							class AttachedTo
 							{
 								id=57;
@@ -3298,7 +3290,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1919.9744,3.4046948,10661.229};
+				position[]={1920.4365,3.4169936,10663.348};
 				angles[]={6.2751913,0,0.045308746};
 			};
 			side="Empty";
@@ -3309,7 +3301,6 @@ class Mission
 			};
 			id=57;
 			type="CUP_O_UAZ_Open_RU";
-			atlOffset=7.390976e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5216,14 +5207,14 @@ class Mission
 						{
 							dataType="Waypoint";
 							loiterAltitude=-3.4028235e+038;
-							position[]={1920.0166,3.4661553,10667.56};
+							position[]={1919.8866,3.4135976,10669.808};
 							type="VehicleInVehicleGetIn";
 							class Effects
 							{
 							};
 							showWP="NEVER";
 							id=1988;
-							atlOffset=0.49996257;
+							atlOffset=0.5;
 							class AttachedTo
 							{
 								id=2090;
@@ -11859,7 +11850,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1919.8104,2.8713949,10671.956};
+						position[]={1920.0565,2.8326046,10675.711};
 						angles[]={0.021328852,0,0.053282689};
 					};
 					side="East";
@@ -16056,7 +16047,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1919.9972,3.3311789,10667.567};
+				position[]={1919.8672,3.2786212,10669.815};
 				angles[]={6.2751913,0,0.045308746};
 			};
 			side="Empty";
@@ -16067,7 +16058,6 @@ class Mission
 			};
 			id=2090;
 			type="CUP_O_UAZ_Open_RU";
-			atlOffset=-3.7431717e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18868,7 +18858,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={11734.664,4.6714392,3130.5105};
-						angles[]={0,3.7775145,-0};
+						angles[]={0,3.7775209,0};
 					};
 					side="West";
 					flags=6;
@@ -18910,8 +18900,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11734.664,5.5507431,3130.491};
-				angles[]={0,3.7775145,-0};
+				position[]={11734.664,5.5507431,3130.4905};
+				angles[]={0,3.7775209,0};
 			};
 			side="West";
 			flags=6;
@@ -18920,6 +18910,23 @@ class Mission
 			};
 			id=2235;
 			type="RHS_A10";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m18_green"",""rhs_mag_m18_yellow"",""rhs_mag_m18_red"",""rhs_mag_m18_purple"",""rhs_mag_an_m8hc""],[4,2,2,2,2,2]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item169
 		{
@@ -18933,7 +18940,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11706.077,4.6714392,3156.1736};
+						position[]={11704.362,4.5460577,3154.116};
 						angles[]={0,3.7597361,0};
 					};
 					side="West";
@@ -18941,8 +18948,9 @@ class Mission
 					class Attributes
 					{
 					};
-					id=2239;
+					id=2241;
 					type="rhsusf_airforce_jetpilot";
+					atlOffset=-0.0050001144;
 				};
 			};
 			class Attributes
@@ -18960,8 +18968,8 @@ class Mission
 					class Item0
 					{
 						linkID=0;
-						item0=2239;
-						item1=2238;
+						item0=2241;
+						item1=2240;
 						class CustomData
 						{
 							role=1;
@@ -18970,14 +18978,14 @@ class Mission
 				};
 			};
 			id=2237;
-			atlOffset=-0.0048360825;
+			atlOffset=-0.0050001144;
 		};
 		class Item170
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11704.251,7.0689259,3153.9666};
+				position[]={11704.325,5.4250598,3154.0588};
 				angles[]={0,3.7597361,0};
 			};
 			side="West";
@@ -18987,11 +18995,28 @@ class Mission
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
-				pylons="rhs_mag_Sidewinder_int;rhs_mag_aim120d_int;rhs_mag_gbu32;rhs_mag_gbu32;rhs_mag_aim120d_int;rhs_mag_Sidewinder_int;rhsusf_ANALE52_CMFlare_Chaff_Magazine_x4;";
+				pylons="rhs_mag_ANALQ131;rhs_mag_M151_7_USAF_LAU131;rhs_mag_agm65d;rhs_mag_gbu12;rhs_mag_gbu12;;rhs_mag_gbu12;rhs_mag_gbu12;rhs_mag_agm65d;rhs_mag_M151_7_USAF_LAU131;rhs_mag_aim9m_2;rhsusf_ANALE40_CMFlare_Chaff_Magazine_x16;";
 			};
-			id=2238;
-			type="rhsusf_f22";
-			atlOffset=-0.0048360825;
+			id=2240;
+			type="RHS_A10";
+			atlOffset=-0.0050001144;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m18_green"",""rhs_mag_m18_yellow"",""rhs_mag_m18_red"",""rhs_mag_m18_purple"",""rhs_mag_an_m8hc""],[4,2,2,2,2,2]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
@@ -19687,7 +19712,7 @@ class Mission
 			{
 				linkID=68;
 				item0=2233;
-				item1=2238;
+				item1=2240;
 				class CustomData
 				{
 					type="Sync";
