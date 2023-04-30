@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2256;
+		nextID=2259;
 	};
 	class MarkerIDProvider
 	{
@@ -13226,7 +13226,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=4;
+				items=7;
 				class Item0
 				{
 					dataType="Object";
@@ -13304,6 +13304,50 @@ class Mission
 					id=1869;
 					type="rhs_msv_strelok_rpg_assist";
 					atlOffset=0.42128372;
+				};
+				class Item4
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={2113.4609,24.491352,11823.573};
+					completitionRadius=50;
+					class Effects
+					{
+					};
+					timeoutMid=30;
+					timeoutMax=60;
+					showWP="NEVER";
+					id=2256;
+					type="Move";
+					atlOffset=1.9073486e-006;
+				};
+				class Item5
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={1886.863,7.3589482,11830.701};
+					completitionRadius=50;
+					class Effects
+					{
+					};
+					timeoutMid=30;
+					timeoutMax=60;
+					showWP="NEVER";
+					id=2257;
+					type="Move";
+					atlOffset=-4.7683716e-007;
+				};
+				class Item6
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={2044.806,22.809738,11744.414};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2258;
 				};
 			};
 			class Attributes
