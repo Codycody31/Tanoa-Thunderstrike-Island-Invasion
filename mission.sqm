@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2259;
+		nextID=2266;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12341.107,709.84412,2205.3059};
-		dir[]={-0.46688357,-0.664545,0.58343798};
-		up[]={-0.41521025,0.74724817,0.51886475};
-		aside[]={0.78078192,0,0.62480378};
+		pos[]={2489.9922,31.981285,11428.773};
+		dir[]={0.674402,-0.42360404,0.60477149};
+		up[]={0.3153742,0.90584558,0.28281227};
+		aside[]={0.66763085,-7.4738637e-008,-0.7444979};
 	};
 };
 binarizationWanted=0;
@@ -141,13 +141,14 @@ addons[]=
 	"ace_compat_rhs_afrf3",
 	"ace_ballistics",
 	"CUP_WheeledVehicles_BTR40",
-	"rhs_c_2s1"
+	"rhs_c_2s1",
+	"CUP_WheeledVehicles_LR"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=96;
+		items=97;
 		class Item0
 		{
 			className="CUP_WaterVehicles_LHD";
@@ -740,6 +741,11 @@ class AddonsMetaData
 			name="2S1 SPG";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
+		};
+		class Item96
+		{
+			className="CUP_WheeledVehicles_LR";
+			name="CUP_WheeledVehicles_LR";
 		};
 	};
 };
@@ -1931,7 +1937,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=171;
+		items=172;
 		class Item0
 		{
 			dataType="Object";
@@ -18297,7 +18303,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=6;
+				items=10;
 				class Item0
 				{
 					dataType="Object";
@@ -18313,7 +18319,6 @@ class Mission
 					};
 					id=2159;
 					type="CUP_O_TK_Soldier";
-					atlOffset=-2.4795532e-005;
 				};
 				class Item1
 				{
@@ -18324,15 +18329,80 @@ class Mission
 						angles[]={6.2618575,0,0};
 					};
 					side="East";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 					};
 					id=2160;
 					type="CUP_O_TK_Soldier";
-					atlOffset=2.1345196;
 				};
 				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2502.1636,16.252178,11440.252};
+						angles[]={6.272521,0,0.023993526};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=2260;
+					type="CUP_O_TK_Soldier";
+					atlOffset=-1.7166138e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2502.1418,16.373228,11440.517};
+						angles[]={6.2778478,0,0.018663859};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=2261;
+					type="CUP_O_TK_Soldier";
+					atlOffset=0.1193161;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2502.1636,16.252178,11440.252};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2262;
+					type="CUP_O_TK_Soldier_AAT";
+					atlOffset=-1.7166138e-005;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2502.1636,16.252178,11440.252};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2265;
+					type="CUP_O_TK_Soldier_GL";
+					atlOffset=-1.7166138e-005;
+				};
+				class Item6
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
@@ -18344,7 +18414,7 @@ class Mission
 					id=2175;
 					type="Move";
 				};
-				class Item3
+				class Item7
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
@@ -18356,7 +18426,7 @@ class Mission
 					id=2177;
 					type="Move";
 				};
-				class Item4
+				class Item8
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
@@ -18368,7 +18438,7 @@ class Mission
 					id=2179;
 					type="Move";
 				};
-				class Item5
+				class Item9
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
@@ -18388,11 +18458,11 @@ class Mission
 			{
 				class LinkIDProvider
 				{
-					nextID=2;
+					nextID=6;
 				};
 				class Links
 				{
-					items=2;
+					items=6;
 					class Item0
 					{
 						linkID=0;
@@ -18414,17 +18484,59 @@ class Mission
 							turretPath[]={0};
 						};
 					};
+					class Item2
+					{
+						linkID=2;
+						item0=2260;
+						item1=2259;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item3
+					{
+						linkID=3;
+						item0=2261;
+						item1=2259;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={1};
+						};
+					};
+					class Item4
+					{
+						linkID=4;
+						item0=2262;
+						item1=2259;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+					class Item5
+					{
+						linkID=5;
+						item0=2265;
+						item1=2259;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=0;
+						};
+					};
 				};
 			};
 			id=2157;
-			atlOffset=-0.00024223328;
 		};
 		class Item159
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2506.845,18.483761,11443.133};
+				position[]={2506.8452,18.484005,11443.133};
 				angles[]={6.2618575,0,0};
 			};
 			side="East";
@@ -18434,7 +18546,6 @@ class Mission
 			};
 			id=2158;
 			type="CUP_O_BTR40_MG_TKA";
-			atlOffset=-0.00024223328;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18476,7 +18587,6 @@ class Mission
 					};
 					id=2162;
 					type="CUP_O_TK_Sniper_KSVK";
-					atlOffset=-2.4795532e-005;
 				};
 				class Item1
 				{
@@ -18494,7 +18604,6 @@ class Mission
 					};
 					id=2163;
 					type="CUP_O_TK_Spotter";
-					atlOffset=-2.4795532e-005;
 				};
 			};
 			class Attributes
@@ -18534,7 +18643,6 @@ class Mission
 				};
 			};
 			id=2161;
-			atlOffset=-0.00024223328;
 		};
 		class Item161
 		{
@@ -18560,7 +18668,6 @@ class Mission
 					};
 					id=2165;
 					type="CUP_O_TK_Soldier_SL";
-					atlOffset=-2.4795532e-005;
 				};
 				class Item1
 				{
@@ -18578,7 +18685,6 @@ class Mission
 					};
 					id=2166;
 					type="CUP_O_TK_Soldier_MG";
-					atlOffset=-2.4795532e-005;
 				};
 				class Item2
 				{
@@ -18597,7 +18703,6 @@ class Mission
 					};
 					id=2167;
 					type="CUP_O_TK_Soldier_AT";
-					atlOffset=-2.4795532e-005;
 				};
 				class Item3
 				{
@@ -18616,7 +18721,6 @@ class Mission
 					};
 					id=2168;
 					type="CUP_O_TK_Soldier_GL";
-					atlOffset=-2.4795532e-005;
 				};
 				class Item4
 				{
@@ -18694,7 +18798,8 @@ class Mission
 			{
 				name="sandstorm11";
 				placementRadius=1;
-				formation="ECH LEFT";
+				speedMode="FULL";
+				formation="COLUMN";
 			};
 			class CrewLinks
 			{
@@ -18752,7 +18857,6 @@ class Mission
 				};
 			};
 			id=2164;
-			atlOffset=-0.00024223328;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -19233,6 +19337,23 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item171
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2502.1418,16.37179,11440.467};
+				angles[]={6.272521,0,0.023993526};
+			};
+			side="East";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2259;
+			type="CUP_O_LR_MG_TKA";
+			atlOffset=-1.7166138e-005;
 		};
 	};
 	class Connections
