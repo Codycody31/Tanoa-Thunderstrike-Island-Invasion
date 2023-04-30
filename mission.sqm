@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3108.3276,31.938934,11119.52};
-		dir[]={-0.7896384,-0.5853346,0.18400361};
-		up[]={-0.57006371,0.81079149,0.13283765};
-		aside[]={0.226943,4.0745363e-009,0.97391009};
+		pos[]={1919.6766,15.563677,10657.002};
+		dir[]={-0.016274767,-0.56254983,0.82660371};
+		up[]={-0.011073734,0.82676327,0.56244057};
+		aside[]={0.9998067,-1.2259989e-009,0.019684909};
 	};
 };
 binarizationWanted=0;
@@ -5256,14 +5256,14 @@ class Mission
 						{
 							dataType="Waypoint";
 							loiterAltitude=-3.4028235e+038;
-							position[]={1919.8885,3.4136868,10669.809};
+							position[]={1919.889,3.4137213,10669.809};
 							type="VehicleInVehicleGetIn";
 							class Effects
 							{
 							};
 							showWP="NEVER";
 							id=1988;
-							atlOffset=0.49999237;
+							atlOffset=0.5;
 							class AttachedTo
 							{
 								id=2090;
@@ -16322,7 +16322,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1919.8672,3.2786212,10669.815};
+				position[]={1919.8677,3.2786558,10669.815};
 				angles[]={6.2751913,0,0.045308746};
 			};
 			side="Empty";
@@ -16333,7 +16333,6 @@ class Mission
 			};
 			id=2090;
 			type="CUP_O_UAZ_Open_RU";
-			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16345,7 +16344,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""CUP_arifle_AKS74U"",""Medikit"",""CUP_launch_RPG26""],[2,1,4]],[[""CUP_30Rnd_545x39_AK_M"",""CUP_RPG18_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red"",""C2_Mag"",""rhsusf_m112x4_mag""],[20,2,2,2,2,5,5]],[[""ToolKit"",""ACE_CableTie"",""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_quikclot"",""ACE_personalAidKit""],[1,20,25,25,25,8,8,8,25,10]],[[""CUP_B_CivPack_WDL""],[4]]],false]";
+							value="[[[[""CUP_arifle_AKS74U"",""Medikit"",""CUP_launch_RPG26""],[2,1,4]],[[""CUP_30Rnd_545x39_AK_M"",""CUP_RPG18_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red"",""C2_Mag"",""rhsusf_m112x4_mag"",""rhs_mag_100Rnd_556x45_M855_cmag"",""rhsusf_200rnd_556x45_M855_box""],[20,2,2,2,2,5,5,4,4]],[[""ToolKit"",""ACE_CableTie"",""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_quikclot"",""ACE_personalAidKit""],[1,20,25,25,25,8,8,8,25,10]],[[""CUP_B_CivPack_WDL""],[4]]],false]";
 						};
 					};
 				};
