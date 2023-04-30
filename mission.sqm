@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2266;
+		nextID=2270;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2489.9922,31.981285,11428.773};
-		dir[]={0.674402,-0.42360404,0.60477149};
-		up[]={0.3153742,0.90584558,0.28281227};
-		aside[]={0.66763085,-7.4738637e-008,-0.7444979};
+		pos[]={1804.7446,96.118484,11998.608};
+		dir[]={-0.77267218,-0.62757283,-0.095649824};
+		up[]={-0.62282085,0.77855837,-0.077099487};
+		aside[]={-0.12285359,4.4237822e-007,0.99243689};
 	};
 };
 binarizationWanted=0;
@@ -14098,7 +14098,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=5;
+				items=9;
 				class Item0
 				{
 					dataType="Object";
@@ -14190,6 +14190,63 @@ class Mission
 					};
 					id=1917;
 					type="CUP_O_RU_Soldier";
+				};
+				class Item5
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={1698.4301,1.255091,12006.545};
+					completitionRadius=20;
+					class Effects
+					{
+					};
+					timeoutMid=30;
+					timeoutMax=60;
+					showWP="NEVER";
+					id=2266;
+					type="Move";
+				};
+				class Item6
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={1755.222,1.6023411,11864.292};
+					completitionRadius=20;
+					class Effects
+					{
+					};
+					timeoutMid=30;
+					timeoutMax=60;
+					showWP="NEVER";
+					id=2267;
+					type="Move";
+				};
+				class Item7
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={1842.693,4.687923,11903.007};
+					completitionRadius=20;
+					class Effects
+					{
+					};
+					timeoutMid=30;
+					timeoutMax=60;
+					showWP="NEVER";
+					id=2268;
+					type="Move";
+				};
+				class Item8
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={1759.4312,2.8007593,11969.328};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2269;
 				};
 			};
 			class Attributes
