@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1751.0912,266.72064,11779.039};
-		dir[]={0.095817439,-0.58874774,0.80264992};
-		up[]={0.069788441,0.80831277,0.58460069};
-		aside[]={0.99297607,-8.8475645e-009,-0.11853701};
+		pos[]={1932.7493,10.237823,10685.09};
+		dir[]={-0.68556434,-0.22305618,-0.69305652};
+		up[]={-0.15688139,0.97479999,-0.15859409};
+		aside[]={-0.71097004,-1.0477379e-009,0.70328367};
 	};
 };
 binarizationWanted=0;
@@ -12004,7 +12004,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1923.764,2.7821863,10662.671};
+						position[]={1923.764,3.2211862,10662.671};
 					};
 					side="East";
 					flags=5;
@@ -12124,7 +12124,6 @@ class Mission
 					};
 					id=2071;
 					type="CUP_O_TK_Soldier_MG";
-					atlOffset=-0.43899989;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19912,11 +19911,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=70;
+			nextID=72;
 		};
 		class Links
 		{
-			items=70;
+			items=72;
 			class Item0
 			{
 				linkID=0;
@@ -20612,6 +20611,26 @@ class Mission
 				linkID=69;
 				item0=2233;
 				item1=425;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item70
+			{
+				linkID=70;
+				item0=2092;
+				item1=6;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item71
+			{
+				linkID=71;
+				item0=2092;
+				item1=2235;
 				class CustomData
 				{
 					type="Sync";
