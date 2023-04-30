@@ -920,7 +920,7 @@ class CustomAttributes
 								singleType="ARRAY";
 								class value
 								{
-									items=27;
+									items=28;
 									class Item0
 									{
 										class data
@@ -1137,6 +1137,14 @@ class CustomAttributes
 											value="ace_mk6mortar_airresistanceenabled";
 										};
 									};
+									class Item27
+									{
+										class data
+										{
+											singleType="STRING";
+											value="ace_medical_treatment_medicpak";
+										};
+									};
 								};
 							};
 						};
@@ -1147,7 +1155,7 @@ class CustomAttributes
 								singleType="ARRAY";
 								class value
 								{
-									items=27;
+									items=28;
 									class Item0
 									{
 										class data
@@ -1864,6 +1872,33 @@ class CustomAttributes
 													{
 														singleType="BOOL";
 														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item27
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
 													};
 												};
 												class Item1
