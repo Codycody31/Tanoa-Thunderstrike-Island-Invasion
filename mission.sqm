@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2300;
+		nextID=2301;
 	};
 	class MarkerIDProvider
 	{
@@ -11909,7 +11909,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=5;
+				items=6;
 				class Item0
 				{
 					dataType="Object";
@@ -12170,6 +12170,22 @@ class Mission
 						};
 						nAttributes=2;
 					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1914.6912,2.4715202,10680.452};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2300;
+					type="CUP_O_TK_Spotter";
+					atlOffset=-1.1444092e-005;
 				};
 			};
 			class Attributes
