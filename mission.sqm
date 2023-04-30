@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2283;
+		nextID=2300;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2130.9434,166.29512,11744.741};
-		dir[]={0.37767667,-0.557037,-0.73965138};
-		up[]={0.2533192,0.83048689,-0.49610645};
-		aside[]={-0.89062071,-9.8720193e-008,-0.45476353};
+		pos[]={1751.0912,266.72064,11779.039};
+		dir[]={0.095817439,-0.58874774,0.80264992};
+		up[]={0.069788441,0.80831277,0.58460069};
+		aside[]={0.99297607,-8.8475645e-009,-0.11853701};
 	};
 };
 binarizationWanted=0;
@@ -142,13 +142,14 @@ addons[]=
 	"ace_ballistics",
 	"CUP_WheeledVehicles_BTR40",
 	"rhs_c_2s1",
-	"CUP_WheeledVehicles_LR"
+	"CUP_WheeledVehicles_LR",
+	"CUP_Creatures_StaticWeapons"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=97;
+		items=98;
 		class Item0
 		{
 			className="CUP_WaterVehicles_LHD";
@@ -746,6 +747,11 @@ class AddonsMetaData
 		{
 			className="CUP_WheeledVehicles_LR";
 			name="CUP_WheeledVehicles_LR";
+		};
+		class Item97
+		{
+			className="CUP_Creatures_StaticWeapons";
+			name="CUP_Creatures_StaticWeapons";
 		};
 	};
 };
@@ -1937,7 +1943,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=174;
+		items=180;
 		class Item0
 		{
 			dataType="Object";
@@ -13675,7 +13681,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1853.9011,9.4838629,12021.853};
+						position[]={1841.0051,5.3627772,12027.096};
 					};
 					side="East";
 					flags=5;
@@ -19603,6 +19609,268 @@ class Mission
 			};
 			id=2278;
 			atlOffset=0.071083069;
+		};
+		class Item174
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1763.5601,11.691697,11954.229};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+					};
+					id=2284;
+					type="CUP_O_TK_Sniper_KSVK";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.6313,14.501742,11960.545};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="SERGEANT";
+					};
+					id=2285;
+					type="CUP_O_TK_Spotter";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2283;
+		};
+		class Item175
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2026.5406,10.084275,11982.114};
+						angles[]={-0,0,6.2485328};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+					};
+					id=2291;
+					type="CUP_O_TK_Soldier";
+					atlOffset=0.7262516;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2024.6621,10.017828,11977.348};
+						angles[]={6.2751918,0,6.2485328};
+					};
+					side="East";
+					class Attributes
+					{
+					};
+					id=2293;
+					type="CUP_O_TK_Soldier";
+					atlOffset=0.72628975;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2028.0942,10.027893,11978.133};
+						angles[]={6.2485328,0,0};
+					};
+					side="East";
+					class Attributes
+					{
+					};
+					id=2295;
+					type="CUP_O_TK_Soldier";
+					atlOffset=0.7262373;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=2291;
+						item1=2290;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=2293;
+						item1=2292;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=2295;
+						item1=2294;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=2289;
+			atlOffset=-2.8610229e-006;
+		};
+		class Item176
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2026.5406,10.082836,11982.064};
+				angles[]={-0,0,6.2485328};
+			};
+			side="East";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=2290;
+			type="CUP_O_2b14_82mm_TK";
+			atlOffset=-2.8610229e-006;
+		};
+		class Item177
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2024.6621,10.016389,11977.298};
+				angles[]={6.2751918,0,6.2485328};
+			};
+			side="East";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2292;
+			type="CUP_O_2b14_82mm_TK";
+			atlOffset=1.335144e-005;
+		};
+		class Item178
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2028.0942,10.026454,11978.083};
+				angles[]={6.2485328,0,0};
+			};
+			side="East";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2294;
+			type="CUP_O_2b14_82mm_TK";
+			atlOffset=-3.3378601e-005;
+		};
+		class Item179
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1823.9408,15.077024,11997.872};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=2297;
+					type="CUP_O_TK_Sniper_KSVK";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1826.2998,15.077025,11997.724};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2298;
+					type="CUP_O_TK_Soldier_FNFAL_Night";
+					atlOffset=9.5367432e-007;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1823.2649,15.077024,11995.002};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2299;
+					type="CUP_O_TK_Soldier_MG";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2296;
 		};
 	};
 	class Connections
