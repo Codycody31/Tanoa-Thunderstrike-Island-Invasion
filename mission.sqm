@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=253;
+		nextID=267;
 	};
 	class Camera
 	{
@@ -803,19 +803,19 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="ReviveRequiredItems";
-			expression="false";
+			property="SharedObjectives";
+			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
 			class Value
 			{
 				class data
 				{
 					singleType="SCALAR";
-					value=2;
+					value=1;
 				};
 			};
 		};
@@ -895,20 +895,20 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="SharedObjectives";
-			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
+			property="ReviveRequiredItems";
+			expression="false";
 			class Value
 			{
 				class data
 				{
 					singleType="SCALAR";
-					value=1;
+					value=2;
 				};
 			};
 		};
 		nAttributes=5;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -29326,6 +29326,7 @@ class Mission
 					showWP="NEVER";
 					id=2442;
 					type="Move";
+					atlOffset=0.00049591064;
 				};
 				class Item9
 				{
@@ -31069,6 +31070,7 @@ class Mission
 					showWP="NEVER";
 					id=2436;
 					type="Move";
+					atlOffset=-7.6293945e-006;
 				};
 				class Item3
 				{
@@ -31093,6 +31095,7 @@ class Mission
 					showWP="NEVER";
 					id=2438;
 					type="Move";
+					atlOffset=7.6293945e-006;
 				};
 				class Item5
 				{
@@ -31248,7 +31251,7 @@ class Mission
 					};
 					showWP="NEVER";
 					id=2434;
-					atlOffset=17.942741;
+					atlOffset=17.942791;
 				};
 			};
 			class Attributes
@@ -31399,6 +31402,7 @@ class Mission
 					};
 					id=2453;
 					type="rhs_msv_emr_aa";
+					atlOffset=1.9073486e-006;
 				};
 				class Item3
 				{
@@ -31431,6 +31435,7 @@ class Mission
 					};
 					id=2455;
 					type="rhs_msv_emr_rifleman";
+					atlOffset=1.9073486e-006;
 				};
 				class Item5
 				{
