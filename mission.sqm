@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2428;
+		nextID=2430;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14781.684,23.362513,326.58121};
-		dir[]={-0.043156944,-0.41145799,0.91040641};
-		up[]={-0.019482894,0.91142875,0.4109965};
-		aside[]={0.99887836,-1.8626451e-009,0.047350872};
+		pos[]={14764.885,73.23452,195.23747};
+		dir[]={0.11124818,-0.28245121,0.95281333};
+		up[]={0.032755837,0.95927995,0.28054669};
+		aside[]={0.99325496,-3.817695e-008,-0.11596984};
 	};
 };
 binarizationWanted=0;
@@ -13435,7 +13435,12 @@ class Mission
 									};
 									class binocular
 									{
-										name="ACE_MX2A";
+										name="Laserdesignator_mas_h";
+										class primaryMuzzleMag
+										{
+											name="Laserbatteries";
+											ammoLeft=1;
+										};
 									};
 									class uniform
 									{
@@ -14204,7 +14209,7 @@ class Mission
 									};
 									class binocular
 									{
-										name="ACE_MX2A";
+										name="Laserdesignator_mas_h";
 									};
 									class uniform
 									{
