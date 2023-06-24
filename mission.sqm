@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2465;
+		nextID=2472;
 	};
 	class MarkerIDProvider
 	{
@@ -25228,7 +25228,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=3;
+				items=7;
 				class Item0
 				{
 					dataType="Object";
@@ -25283,6 +25283,57 @@ class Mission
 					};
 					id=1969;
 					type="CUP_O_TK_Soldier_AA";
+				};
+				class Item3
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={2410.9209,23.683743,13214.239};
+					completitionRadius=20;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2468;
+					type="Move";
+				};
+				class Item4
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={2149.0029,23.916553,13016.59};
+					completitionRadius=20;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2469;
+					type="Move";
+				};
+				class Item5
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={2244.7971,13.45,13285.177};
+					completitionRadius=20;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2470;
+					type="Move";
+				};
+				class Item6
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={2294.5129,13.490099,13299.122};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2471;
 				};
 			};
 			class Attributes
@@ -30239,7 +30290,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=4;
+				items=7;
 				class Item0
 				{
 					dataType="Object";
@@ -30305,6 +30356,43 @@ class Mission
 					};
 					id=2350;
 					type="CUP_O_TK_Soldier";
+				};
+				class Item4
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={2259.332,12.940003,13173.834};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2465;
+					type="Move";
+				};
+				class Item5
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={1908.075,15.482593,12880.686};
+					completitionRadius=10;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2466;
+					type="Move";
+				};
+				class Item6
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={2052.2947,14.876069,12994.021};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2467;
 				};
 			};
 			class Attributes
@@ -30570,14 +30658,15 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={2215.4539,13.697258,13127.549};
+					position[]={2215.4541,13.697268,13127.549};
+					completitionRadius=10;
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=2371;
 					type="Move";
-					atlOffset=-4.7683716e-006;
+					atlOffset=9.5367432e-007;
 				};
 				class Item9
 				{
