@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2186.53,87.375061,7549.8921};
-		dir[]={0.34260711,-0.48307467,-0.80576622};
-		up[]={0.18902324,0.87557918,-0.44455746};
-		aside[]={-0.92026657,-1.4901161e-008,-0.39129201};
+		pos[]={14781.684,23.362513,326.58121};
+		dir[]={-0.043156944,-0.41145799,0.91040641};
+		up[]={-0.019482894,0.91142875,0.4109965};
+		aside[]={0.99887836,-1.8626451e-009,0.047350872};
 	};
 };
 binarizationWanted=0;
@@ -803,7 +803,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -908,7 +908,7 @@ class CustomAttributes
 		};
 		nAttributes=5;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -30495,7 +30495,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6956.9712,2.6614389,7464.5732};
-						angles[]={0,0.052788753,0};
+						angles[]={0,0.052796211,0};
 					};
 					side="West";
 					flags=6;
@@ -30512,7 +30512,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6956.9712,5.0274105,7464.561};
-						angles[]={0,0.052788753,0};
+						angles[]={0,0.052796211,0};
 					};
 					side="West";
 					class Attributes
@@ -30566,8 +30566,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6957.1958,5.0259719,7244.4023};
-				angles[]={0,0.052788753,0};
+				position[]={6957.1958,5.0259719,7244.4028};
+				angles[]={0,0.052796211,0};
 			};
 			side="West";
 			flags=6;
@@ -30576,9 +30576,27 @@ class Mission
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
+				pylons="rhs_mag_Sidewinder_heli;rhs_mag_M151_19;rhs_mag_AGM114L_4[0];rhs_mag_AGM114L_4[0];rhs_mag_M151_19;rhs_mag_Sidewinder_heli;rhsusf_M130_CMFlare_Chaff_Magazine_x2;";
 			};
 			id=2374;
 			type="RHS_AH64D_wd";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit""],[2,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m18_green"",""rhs_mag_m18_yellow"",""rhs_mag_m18_red"",""rhs_mag_m18_purple"",""rhs_mag_an_m8hc""],[8,2,2,2,2,2]],[[""rhsusf_ihadss""],[2]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item189
 		{
@@ -30593,7 +30611,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6962.5615,2.6614389,7429.769};
-						angles[]={0,2.2884638,0};
+						angles[]={0,2.2884583,0};
 					};
 					side="West";
 					flags=6;
@@ -30610,7 +30628,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6962.5615,5.0274105,7429.7568};
-						angles[]={0,2.2884638,0};
+						angles[]={0,2.2884583,0};
 					};
 					side="West";
 					class Attributes
@@ -30664,8 +30682,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6873.3535,5.0259719,7287.7515};
-				angles[]={0,2.2884638,0};
+				position[]={6873.354,5.0259719,7287.752};
+				angles[]={0,2.2884583,0};
 			};
 			side="West";
 			flags=6;
@@ -30674,9 +30692,27 @@ class Mission
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
+				pylons="rhs_mag_Sidewinder_heli;rhs_mag_M151_19;rhs_mag_AGM114L_4[0];rhs_mag_AGM114L_4[0];rhs_mag_M151_19;rhs_mag_Sidewinder_heli;rhsusf_M130_CMFlare_Chaff_Magazine_x2;";
 			};
 			id=2378;
 			type="RHS_AH64D_wd";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit""],[2,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m18_green"",""rhs_mag_m18_yellow"",""rhs_mag_m18_red"",""rhs_mag_m18_purple"",""rhs_mag_an_m8hc""],[8,2,2,2,2,2]],[[""rhsusf_ihadss""],[2]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item191
 		{
@@ -30690,7 +30726,7 @@ class Mission
 			flags=6;
 			class Attributes
 			{
-				pylons="CUP_PylonPod_2Rnd_AIM_9L_LAU_Sidewinder_M;CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M;CUP_PylonPod_3Rnd_Mk82_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_3Rnd_Mk82_M;CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M;CUP_PylonPod_ANAAQ_28;";
+				pylons="CUP_PylonPod_2Rnd_AIM_9L_LAU_Sidewinder_M;CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M;CUP_PylonPod_3Rnd_Mk82_M;PylonRack_3Rnd_Missile_AGM_02_F;CUP_PylonPod_3Rnd_GBU12_M;FIR_Mk82_snakeye_P_6rnd_M;CUP_PylonPod_3Rnd_GBU12_M;PylonRack_3Rnd_Missile_AGM_02_F;CUP_PylonPod_3Rnd_Mk82_M;CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M;CUP_PylonPod_2Rnd_AIM_9L_LAU_Sidewinder_M;";
 			};
 			id=2382;
 			type="CUP_B_A10_DYN_USA";
@@ -30886,7 +30922,7 @@ class Mission
 			flags=6;
 			class Attributes
 			{
-				pylons="FIR_AIM9X_P_1rnd_M;FIR_AGM65F_P_1rnd_M;FIR_AGM65E2_P_1rnd_M;FIR_ATFLIR_3_P_1rnd_M;FIR_FA18_Fueltank_P_1rnd_M;FIR_AIM120_P_1rnd_M;FIR_AGM65E2_P_1rnd_M;FIR_AGM65F_P_1rnd_M;FIR_AIM9X_P_1rnd_M;";
+				pylons="FIR_AIM9M_P_1rnd_M;FIR_Hydra_WDU4_P_38rnd_M;FIR_Mk82_snakeye_P_3rnd_M;FIR_ATFLIR_3_P_1rnd_M;FIR_FA18_Fueltank_P_1rnd_M;FIR_AIM120_P_1rnd_M;FIR_Mk82_snakeye_P_3rnd_M;FIR_Hydra_WDU4_P_38rnd_M;FIR_AIM9M_P_1rnd_M;";
 			};
 			id=2390;
 			type="FIR_F18C_Scar";
