@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2411;
+		nextID=2428;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=215;
+		nextID=253;
 	};
 	class Camera
 	{
-		pos[]={2282.5515,25,10748.072};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={2186.53,87.375061,7549.8921};
+		dir[]={0.34260711,-0.48307467,-0.80576622};
+		up[]={0.18902324,0.87557918,-0.44455746};
+		aside[]={-0.92026657,-1.4901161e-008,-0.39129201};
 	};
 };
 binarizationWanted=0;
@@ -808,14 +808,14 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="SharedObjectives";
-			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
+			property="ReviveRequiredItems";
+			expression="false";
 			class Value
 			{
 				class data
 				{
 					singleType="SCALAR";
-					value=1;
+					value=2;
 				};
 			};
 		};
@@ -895,14 +895,14 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="ReviveRequiredItems";
-			expression="false";
+			property="SharedObjectives";
+			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
 			class Value
 			{
 				class data
 				{
 					singleType="SCALAR";
-					value=2;
+					value=1;
 				};
 			};
 		};
@@ -10404,7 +10404,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="SCALAR";
-														value=3;
+														value=0;
 													};
 												};
 												class Item1
@@ -11537,7 +11537,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=197;
+		items=198;
 		class Item0
 		{
 			dataType="Object";
@@ -30501,6 +30501,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=2375;
 					type="rhsusf_army_ucp_ah64_pilot";
@@ -30516,6 +30517,7 @@ class Mission
 					side="West";
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=2376;
 					type="rhsusf_army_ucp_ah64_pilot";
@@ -30597,6 +30599,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=2379;
 					type="rhsusf_army_ucp_ah64_pilot";
@@ -30612,6 +30615,7 @@ class Mission
 					side="West";
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=2380;
 					type="rhsusf_army_ucp_ah64_pilot";
@@ -30727,9 +30731,40 @@ class Mission
 					flags=6;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=2383;
 					type="CUP_B_US_Pilot";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -30777,9 +30812,40 @@ class Mission
 					flags=6;
 					class Attributes
 					{
+						isPlayable=1;
 					};
 					id=2389;
 					type="FIR_FighterPilot_JHMCS";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -30846,6 +30912,24 @@ class Mission
 			id=2392;
 			type="SupportProvider_CAS_Heli";
 			atlOffset=68.417587;
+		};
+		class Item197
+		{
+			dataType="Layer";
+			name="US Marine Fireteam (Desert)";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Layer";
+					name="4ChadMarines_1";
+					id=2420;
+					atlOffset=60.779999;
+				};
+			};
+			id=2427;
+			atlOffset=60.779999;
 		};
 	};
 	class Connections
