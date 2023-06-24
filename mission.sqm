@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2430;
+		nextID=2440;
 	};
 	class MarkerIDProvider
 	{
@@ -30239,40 +30239,40 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={2176.0342,8.4209471,10849.405};
+					position[]={2028.2213,8.7341309,10771.976};
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=2356;
 					type="Move";
-					atlOffset=4.7683716e-006;
+					atlOffset=-0.99237823;
 				};
 				class Item5
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1944.3948,10.707374,10468.387};
+					position[]={1877.1484,11.841064,10569.633};
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=2357;
 					type="Move";
-					atlOffset=-0.00014877319;
+					atlOffset=10.796279;
 				};
 				class Item6
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+038;
-					position[]={1890.3899,0.70288312,10768.597};
+					position[]={1965.0371,0.78808594,10708.16};
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=2358;
 					type="Move";
-					atlOffset=-1.7225742e-005;
+					atlOffset=-7.1919518;
 				};
 				class Item7
 				{
@@ -30759,7 +30759,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=6;
 				class Item0
 				{
 					dataType="Object";
@@ -30807,6 +30807,67 @@ class Mission
 						nAttributes=2;
 					};
 				};
+				class Item1
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={13873.148,62.676071,9311.4932};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2435;
+					type="Move";
+				};
+				class Item2
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={13327.132,112.52251,10432.268};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2436;
+					type="Move";
+				};
+				class Item3
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={11765.713,129.90472,10049.098};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2437;
+					type="Move";
+				};
+				class Item4
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={12033.933,119.18153,9100.75};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2438;
+					type="Move";
+				};
+				class Item5
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={13078.072,207.27612,9244.4385};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2439;
+					atlOffset=14.090042;
+				};
 			};
 			class Attributes
 			{
@@ -30840,7 +30901,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=6;
 				class Item0
 				{
 					dataType="Object";
@@ -30887,6 +30948,68 @@ class Mission
 						};
 						nAttributes=2;
 					};
+				};
+				class Item1
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={13801.913,0.023119552,6791.6118};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2430;
+					type="Move";
+					atlOffset=26.075653;
+				};
+				class Item2
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={13844.303,37.510242,8554.5029};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2431;
+					type="Move";
+				};
+				class Item3
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={12311.622,79.773422,8592.8193};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2432;
+					type="Move";
+				};
+				class Item4
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={12215.83,123.78787,7165.5112};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2433;
+					type="Move";
+				};
+				class Item5
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={13135.438,-2.7404785,7012.2417};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=2434;
+					atlOffset=17.942741;
 				};
 			};
 			class Attributes
