@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=2472;
+		nextID=2584;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=267;
+		nextID=292;
 	};
 	class Camera
 	{
-		pos[]={3139.0293,39.594589,11229.717};
-		dir[]={0.16322598,-0.23287234,0.95871335};
-		up[]={0.039085757,0.97250634,0.22957037};
-		aside[]={0.98581547,-5.8636942e-008,-0.16784076};
+		pos[]={6776.478,162.55347,7371.2095};
+		dir[]={0.78383511,-0.55792189,-0.27262738};
+		up[]={0.52695775,0.82989353,-0.1832823};
+		aside[]={-0.32850891,0,-0.94450092};
 	};
 };
 binarizationWanted=0;
@@ -146,13 +146,14 @@ addons[]=
 	"CUP_Creatures_StaticWeapons",
 	"CUP_AirVehicles_A10",
 	"FIR_PilotCrewPack_US",
-	"FIR_FA18_F"
+	"FIR_FA18_F",
+	"CUP_WheeledVehicles_MTVR"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=101;
+		items=102;
 		class Item0
 		{
 			className="CUP_WaterVehicles_LHD";
@@ -770,6 +771,11 @@ class AddonsMetaData
 		{
 			className="FIR_FA18_F";
 			name="FIR_FA18_F";
+		};
+		class Item101
+		{
+			className="CUP_WheeledVehicles_MTVR";
+			name="CUP_WheeledVehicles_MTVR";
 		};
 	};
 };
@@ -11537,7 +11543,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=198;
+		items=197;
 		class Item0
 		{
 			dataType="Object";
@@ -12932,7 +12938,7 @@ class Mission
 			position[]={1920.816,2.8146229,10683.71};
 			class Attributes
 			{
-				onActivation="""marker_opfor_nani"" setMarkerColor ""colorBLUFOR"";";
+				onActivation="""marker_opfor_nani"" setMarkerColor ""colorBLUFOR"";" \n "bravo_1_1_mi_1 setFuel 1;" \n "bravo_1_1_mi_2 setFuel 1;" \n "[west, ""HQ""] sideChat ""Warning, hostile MI-8's inbound!"";";
 				onDeactivation="""marker_opfor_nani"" setMarkerColor ""colorOrange"";";
 				sizeA=70;
 				sizeB=70;
@@ -18227,7 +18233,7 @@ class Mission
 			position[]={1813.493,-0.137784,11990.837};
 			class Attributes
 			{
-				onActivation="""marker_opfor_tuvanaka"" setMarkerColor ""colorBLUFOR"";" \n "bravo_1_1_mi_1 setFuel 1;" \n "bravo_1_1_mi_2 setFuel 1;" \n "[west, ""HQ""] sideChat ""Warning, hostile MI-8's inbound!"";";
+				onActivation="""marker_opfor_tuvanaka"" setMarkerColor ""colorBLUFOR"";";
 				onDeactivation="""marker_opfor_tuvanaka"" setMarkerColor ""colorOrange"";";
 				sizeA=200;
 				sizeB=200;
@@ -26137,20 +26143,6 @@ class Mission
 		};
 		class Item148
 		{
-			dataType="Layer";
-			name="Fire Team (Stealth)";
-			id=2082;
-			atlOffset=60.779999;
-		};
-		class Item149
-		{
-			dataType="Layer";
-			name="Fire Team";
-			id=2089;
-			atlOffset=60.779999;
-		};
-		class Item150
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -26183,7 +26175,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item151
+		class Item149
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -26194,7 +26186,7 @@ class Mission
 			type="HighCommand";
 			atlOffset=63.168999;
 		};
-		class Item152
+		class Item150
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -26205,7 +26197,7 @@ class Mission
 			type="HighCommandSubordinate";
 			atlOffset=62.075878;
 		};
-		class Item153
+		class Item151
 		{
 			dataType="Layer";
 			name="Chinese Marine Fireteam";
@@ -26829,7 +26821,7 @@ class Mission
 			id=2099;
 			atlOffset=-0.15794754;
 		};
-		class Item154
+		class Item152
 		{
 			dataType="Layer";
 			name="ammo box";
@@ -26874,7 +26866,7 @@ class Mission
 			};
 			id=2101;
 		};
-		class Item155
+		class Item153
 		{
 			dataType="Layer";
 			name="Chinese Marine Squad";
@@ -28228,14 +28220,7 @@ class Mission
 			id=2121;
 			atlOffset=-0.2267704;
 		};
-		class Item156
-		{
-			dataType="Layer";
-			name="4ChadMarines";
-			id=2128;
-			atlOffset=60.779999;
-		};
-		class Item157
+		class Item154
 		{
 			dataType="Group";
 			side="East";
@@ -28471,7 +28456,7 @@ class Mission
 			};
 			id=2157;
 		};
-		class Item158
+		class Item155
 		{
 			dataType="Object";
 			class PositionInfo
@@ -28504,7 +28489,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item159
+		class Item156
 		{
 			dataType="Group";
 			side="East";
@@ -28586,7 +28571,7 @@ class Mission
 			};
 			id=2161;
 		};
-		class Item160
+		class Item157
 		{
 			dataType="Group";
 			side="East";
@@ -28743,7 +28728,7 @@ class Mission
 			class Attributes
 			{
 				name="sandstorm11";
-				placementRadius=1;
+				placementRadius=5;
 				speedMode="FULL";
 				formation="COLUMN";
 			};
@@ -28821,7 +28806,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item161
+		class Item158
 		{
 			dataType="Group";
 			side="East";
@@ -29121,7 +29106,7 @@ class Mission
 			id=2216;
 			atlOffset=-0.00042533875;
 		};
-		class Item162
+		class Item159
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29140,7 +29125,7 @@ class Mission
 			type="rhs_2s1_tv";
 			atlOffset=-0.00042533875;
 		};
-		class Item163
+		class Item160
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29157,7 +29142,7 @@ class Mission
 			type="rhs_2s1_tv";
 			atlOffset=-5.2452087e-005;
 		};
-		class Item164
+		class Item161
 		{
 			dataType="Marker";
 			position[]={1959.6085,16.681961,11802.828};
@@ -29166,7 +29151,7 @@ class Mission
 			type="mil_warning";
 			id=2231;
 		};
-		class Item165
+		class Item162
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29183,7 +29168,7 @@ class Mission
 			type="CUP_O_LR_MG_TKA";
 			atlOffset=0.0012779236;
 		};
-		class Item166
+		class Item163
 		{
 			dataType="Group";
 			side="East";
@@ -29360,7 +29345,7 @@ class Mission
 			id=2278;
 			atlOffset=0.071083069;
 		};
-		class Item167
+		class Item164
 		{
 			dataType="Group";
 			side="East";
@@ -29405,7 +29390,7 @@ class Mission
 			};
 			id=2283;
 		};
-		class Item168
+		class Item165
 		{
 			dataType="Group";
 			side="East";
@@ -29512,7 +29497,7 @@ class Mission
 			id=2289;
 			atlOffset=-0.00033950806;
 		};
-		class Item169
+		class Item166
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29529,7 +29514,7 @@ class Mission
 			type="CUP_O_2b14_82mm_TK";
 			atlOffset=-0.00033950806;
 		};
-		class Item170
+		class Item167
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29546,7 +29531,7 @@ class Mission
 			type="CUP_O_2b14_82mm_TK";
 			atlOffset=-0.00047683716;
 		};
-		class Item171
+		class Item168
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29563,7 +29548,7 @@ class Mission
 			type="CUP_O_2b14_82mm_TK";
 			atlOffset=-0.00043869019;
 		};
-		class Item172
+		class Item169
 		{
 			dataType="Group";
 			side="East";
@@ -29622,7 +29607,7 @@ class Mission
 			};
 			id=2296;
 		};
-		class Item173
+		class Item170
 		{
 			dataType="Group";
 			side="East";
@@ -29790,7 +29775,7 @@ class Mission
 			id=2305;
 			atlOffset=-4.7683716e-007;
 		};
-		class Item174
+		class Item171
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29808,7 +29793,7 @@ class Mission
 			id=2307;
 			type="CUP_O_UAZ_Unarmed_TKA";
 		};
-		class Item175
+		class Item172
 		{
 			dataType="Group";
 			side="East";
@@ -29872,7 +29857,7 @@ class Mission
 			id=2316;
 			atlOffset=-4.7683716e-007;
 		};
-		class Item176
+		class Item173
 		{
 			dataType="Group";
 			side="East";
@@ -29968,7 +29953,7 @@ class Mission
 			};
 			id=2320;
 		};
-		class Item177
+		class Item174
 		{
 			dataType="Group";
 			side="East";
@@ -30170,7 +30155,7 @@ class Mission
 			};
 			id=2326;
 		};
-		class Item178
+		class Item175
 		{
 			dataType="Object";
 			class PositionInfo
@@ -30188,7 +30173,7 @@ class Mission
 			id=2328;
 			type="CUP_O_UAZ_MG_TKA";
 		};
-		class Item179
+		class Item176
 		{
 			dataType="Object";
 			class PositionInfo
@@ -30206,7 +30191,7 @@ class Mission
 			id=2331;
 			type="CUP_O_UAZ_AGS30_TKA";
 		};
-		class Item180
+		class Item177
 		{
 			dataType="Group";
 			side="East";
@@ -30285,7 +30270,7 @@ class Mission
 			};
 			id=2341;
 		};
-		class Item181
+		class Item178
 		{
 			dataType="Group";
 			side="East";
@@ -30401,7 +30386,7 @@ class Mission
 			};
 			id=2346;
 		};
-		class Item182
+		class Item179
 		{
 			dataType="Group";
 			side="East";
@@ -30531,7 +30516,7 @@ class Mission
 			};
 			id=2351;
 		};
-		class Item183
+		class Item180
 		{
 			dataType="Group";
 			side="East";
@@ -30709,7 +30694,7 @@ class Mission
 			};
 			id=2361;
 		};
-		class Item184
+		class Item181
 		{
 			dataType="Object";
 			class PositionInfo
@@ -30727,7 +30712,7 @@ class Mission
 			id=2363;
 			type="CUP_O_UAZ_Unarmed_TKA";
 		};
-		class Item185
+		class Item182
 		{
 			dataType="Group";
 			side="West";
@@ -30806,7 +30791,7 @@ class Mission
 			};
 			id=2373;
 		};
-		class Item186
+		class Item183
 		{
 			dataType="Object";
 			class PositionInfo
@@ -30843,7 +30828,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item187
+		class Item184
 		{
 			dataType="Group";
 			side="West";
@@ -30922,7 +30907,7 @@ class Mission
 			};
 			id=2377;
 		};
-		class Item188
+		class Item185
 		{
 			dataType="Object";
 			class PositionInfo
@@ -30959,7 +30944,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item189
+		class Item186
 		{
 			dataType="Object";
 			class PositionInfo
@@ -30993,7 +30978,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item190
+		class Item187
 		{
 			dataType="Group";
 			side="West";
@@ -31137,7 +31122,7 @@ class Mission
 			};
 			id=2384;
 		};
-		class Item191
+		class Item188
 		{
 			dataType="Group";
 			side="West";
@@ -31280,7 +31265,7 @@ class Mission
 			};
 			id=2388;
 		};
-		class Item192
+		class Item189
 		{
 			dataType="Object";
 			class PositionInfo
@@ -31297,7 +31282,7 @@ class Mission
 			id=2390;
 			type="FIR_F18C_Scar";
 		};
-		class Item193
+		class Item190
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -31308,7 +31293,7 @@ class Mission
 			type="SupportProvider_CAS_Bombing";
 			atlOffset=66.428329;
 		};
-		class Item194
+		class Item191
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -31319,7 +31304,7 @@ class Mission
 			type="SupportProvider_CAS_Heli";
 			atlOffset=68.417587;
 		};
-		class Item195
+		class Item192
 		{
 			dataType="Layer";
 			name="US Marine Fireteam (Desert)";
@@ -31337,7 +31322,7 @@ class Mission
 			id=2427;
 			atlOffset=60.779999;
 		};
-		class Item196
+		class Item193
 		{
 			dataType="Marker";
 			position[]={3140.134,22.513,11210.379};
@@ -31347,7 +31332,7 @@ class Mission
 			id=2445;
 			atlOffset=-0.00035858154;
 		};
-		class Item197
+		class Item194
 		{
 			dataType="Group";
 			side="East";
@@ -31490,6 +31475,38 @@ class Mission
 			{
 			};
 			id=2450;
+		};
+		class Item195
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6909.4673,4.8225217,7447.6484};
+				angles[]={0,1.3802879,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2491;
+			type="CUP_B_MTVR_Refuel_USMC";
+		};
+		class Item196
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6910.0786,4.8225217,7439.6128};
+				angles[]={0,1.3802879,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2499;
+			type="CUP_B_MTVR_Refuel_USMC";
 		};
 	};
 	class Connections
